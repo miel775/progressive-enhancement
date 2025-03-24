@@ -1,0 +1,16 @@
+h1 {
+    font-family: arial;
+    font-size: 96px;
+    background: linear-gradient(blue, white);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+body {
+    background: linear-gradient(black, darkgrey);
+    height: 120vh;
+}
