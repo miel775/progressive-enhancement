@@ -9,6 +9,8 @@ function toggleControls() {
     }
 }
 
-function openNav() {
-    document.getElementById('')
-}
+const openButton = document.getElementById('.oppenbttn');
+
+openButton.addEventListener('click', event() {
+    
+})
