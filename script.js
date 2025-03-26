@@ -9,8 +9,13 @@ function toggleControls() {
     }
 }
 
-const openButton = document.getElementById('.oppenbttn');
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
 
-openButton.addEventListener('click', event() {
-    
-})
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+document.getElementById("openButton").addEventListener("click", openNav);
+document.getElementById("closeButton").addEventListener("click", closeNav);
